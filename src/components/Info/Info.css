@@ -1,0 +1,23 @@
+.info-container{
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 20px;
+}
+
+.engineers-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.cart-container{
+    background-color: rgb(223, 218, 218);
+    height: 400px;
+    margin:  20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 1px 6px 6px #3e3f3c;
+}

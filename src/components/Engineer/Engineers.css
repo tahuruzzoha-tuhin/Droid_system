@@ -1,0 +1,23 @@
+.engineer{
+    display: grid;
+    grid-template-columns: 3fr, 1fr;
+    border: 2px solid rgb(144, 153, 126);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.23);
+}
+
+.image{
+    margin: 0 auto;
+    height: 200px;
+}
+
+.btn-regular{
+    padding: 5px;
+    width: 150px;
+    background-color: goldenrod;
+    margin: 60px;
+    margin-right: 80px;
+    
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 5px;
+}
