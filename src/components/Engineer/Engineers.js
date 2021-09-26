@@ -1,9 +1,12 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoneyCheck } from '@fortawesome/free-solid-svg-icons';
 import './Engineers.css';
 
 const Engineers = (props) => {
     console.log(props.engineer);
     const {name, img, role, age, country, salary} = props.engineer;
+    const element = <FontAwesomeIcon icon={faMoneyCheck} />
     return (
         <div>
         <div className="engineer">
@@ -15,7 +18,7 @@ const Engineers = (props) => {
            <h5>Salary:${salary}</h5>
            <button
            onClick={()=> props.handleAddToCart(props.engineer)}
-            className="btn-regular">Add to Cart</button>
+            className="btn-regular">{element}Add to Cart</button>
         </div>
        </div>
     );
