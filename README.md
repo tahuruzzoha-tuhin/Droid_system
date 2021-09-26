@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Getting Started with Bengaldroid Software Team React Project
+In this project we can use react technology and by this project we can add our developer salary and names.
+And members number.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
