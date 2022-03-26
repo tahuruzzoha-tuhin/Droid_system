@@ -1,0 +1,15 @@
+.member__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.members {
+  width: 100%;
+
+  margin: 1em auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  background: #ffff;
+  border-radius: 20px;
+}

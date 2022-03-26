@@ -4,23 +4,23 @@ import { faMoneyCheck } from '@fortawesome/free-solid-svg-icons';
 import './Engineers.css';
 
 const Engineers = (props) => {
-    console.log(props.engineer);
-    const {name, img, role, age, country, salary} = props.engineer;
+
+    const { name, image, price, author, details, enrolled } = props.engineer;
     const element = <FontAwesomeIcon icon={faMoneyCheck} />
     return (
-        <div>
-        <div className="engineer">
-           <img className="image img-fluid" src={img} alt="" />
-           <h3>Name: {name}</h3>
-           <h5>Role:{role}</h5>
-           <h5>Age:{age}</h5>
-           <h5>Country:{country}</h5>
-           <h5>Salary:${salary}</h5>
-           <button
-           onClick={()=> props.handleAddToCart(props.engineer)}
-            className="btn-regular">{element}Add to Cart</button>
+        <div className=''>
+
+            <div className="engineer">
+                <img className="image img-fluid rounded" src={image} alt="" />
+                <h4>{name}</h4>
+                <h5>Author:{author}</h5>
+                <h5>Enrolled:{enrolled}</h5>
+                <h5>Price:${price}</h5>
+                <button
+                    onClick={() => props.handleAddToCart(props.engineer)}
+                    className="btn-regular">{element}Add to Cart</button>
+            </div>
         </div>
-       </div>
     );
 };
 

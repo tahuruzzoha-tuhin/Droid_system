@@ -3,11 +3,15 @@
     grid-template-columns: 3fr, 1fr;
     border: 2px solid rgb(144, 153, 126);
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 9px;
 }
 
 .image{
-    margin: 0 auto;
+    margin: 2 auto;
     height: 200px;
+    border-radius: 10px;
 }
 
 .btn-regular{
